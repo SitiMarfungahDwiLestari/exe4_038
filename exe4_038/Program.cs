@@ -84,6 +84,15 @@ namespace exe4_038
                 Console.WriteLine("3. Display");
                 Console.WriteLine("4. Exit");
                 Console.Write("\nEnter your choice: ");
+                Console.Write("\nEnter your choice: ");
+                String sInput = Console.ReadLine();
+                char ch = Convert.ToChar(sInput == "" ? "0" : sInput);
+                switch (ch)
+                {
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
+                        break;
+                }
             }
         }
     }
