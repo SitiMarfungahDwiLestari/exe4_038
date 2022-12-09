@@ -33,7 +33,7 @@ namespace exe4_038
         }
         public void push (int element)
         {
-            if (info == max -1)
+            if (info == max - 1)
             {
                 Console.WriteLine("Stack is FULL");
                 return;
@@ -52,6 +52,14 @@ namespace exe4_038
         {
             Console.WriteLine("\nThe popped element is: " + top.info);
             top = top.next;
+        }
+        public void display()
+        {
+            if (info == max - 1)
+            {
+                Console.WriteLine("Stack is empty");
+                return;
+            }
         }
     }
     /*static void Main(string[] args)
