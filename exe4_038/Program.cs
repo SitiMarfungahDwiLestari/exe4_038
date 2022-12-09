@@ -31,6 +31,14 @@ namespace exe4_038
             else
                 return (false);
         }
+        public void push (int element)
+        {
+            if (info == max -1)
+            {
+                Console.WriteLine("Stack is FULL");
+                return;
+            }
+        }
     }
     /*static void Main(string[] args)
     {
