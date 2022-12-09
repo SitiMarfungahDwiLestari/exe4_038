@@ -66,7 +66,10 @@ namespace exe4_038
                 if (empty())
                     Console.WriteLine("\nStack Empty");
                 for (tmp = top; tmp != null; tmp = tmp.next)
+                {
                     Console.WriteLine(tmp.info);
+                }
+                Console.WriteLine();
             }
         }
     }
