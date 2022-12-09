@@ -95,6 +95,9 @@ namespace exe4_038
                         int num = Convert.ToInt32(Console.ReadLine());
                         s.push(num);
                         break;
+                    case '2':
+                        s.pop();
+                        break;
                     default:
                         Console.WriteLine("\nInvalid Choice");
                         break;
