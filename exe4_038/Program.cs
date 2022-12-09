@@ -96,6 +96,11 @@ namespace exe4_038
                         s.push(num);
                         break;
                     case '2':
+                        if (s.empty())
+                        {
+                            Console.WriteLine("\nStack Empty");
+                            break;
+                        }
                         s.pop();
                         break;
                     default:
