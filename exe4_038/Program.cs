@@ -60,6 +60,14 @@ namespace exe4_038
                 Console.WriteLine("Stack is empty");
                 return;
             }
+            else
+            {
+                Node tmp;
+                if (empty())
+                    Console.WriteLine("\nStack Empty");
+                for (tmp = top; tmp != null; tmp = tmp.next)
+                    Console.WriteLine(tmp.info);
+            }
         }
     }
     /*static void Main(string[] args)
