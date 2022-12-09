@@ -106,6 +106,8 @@ namespace exe4_038
                     case '3':
                         s.display();
                         break;
+                    case '4':
+                        return;
                     default:
                         Console.WriteLine("\nInvalid Choice");
                         break;
