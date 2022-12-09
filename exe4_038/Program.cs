@@ -2,11 +2,18 @@
 
 namespace exe4_038
 {
-    class Program
+    class Node
     {
-        static void Main(string[] args)
+        public int info;
+        public Node next;
+        public Node(int i, Node n)
         {
-            Console.WriteLine("Hello World!");
+            info = i;
+            next = n;
         }
     }
+    /*static void Main(string[] args)
+    {
+        Console.WriteLine("Hello World!");
+    }*/
 }
