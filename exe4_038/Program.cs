@@ -48,6 +48,11 @@ namespace exe4_038
                 Console.WriteLine("\n" + element + " pushed.");
             }
         }
+        public void pop()
+        {
+            Console.WriteLine("\nThe popped element is: " + top.info);
+            top = top.next;
+        }
     }
     /*static void Main(string[] args)
     {
