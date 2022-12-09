@@ -24,6 +24,13 @@ namespace exe4_038
             info = -1;
             max = 58;
         }
+        bool empty()
+        {
+            if (top == null)
+                return (true);
+            else
+                return (false);
+        }
     }
     /*static void Main(string[] args)
     {
